@@ -7,7 +7,7 @@ const app = express();
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static('public'));
 
-app.listen(3000, (req,res) => {
+app.listen(process.env.PORT || 3000, (req,res) => {
   console.log('SERVER LISTENING');
 })
 
