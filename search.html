@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="search.css">
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+
+    <title>COVID-19 Statistics | Search</title>
+  </head>
+  <body>
+    <header>
+      <ul class="nav nav-pills back-btn">
+        <li class="nav-item">
+          <a class="nav-link btn btn-sm" href="/"><i class="fas fa-arrow-left"></i> Go Back</a>
+        </li>
+      </ul>
+      <div class="jumbotron jumbotron-fluid" id="jumbotron">
+
+        <div class="container text-center">
+          <h1 class="display-4">Covid-19 World Statistics</h1>
+          <p class="lead">Keep up to date with the world's COVID-19 reports.</p>
+        </div>
+      </div>
+    </header>
+
+    <div class="cover-container d-flex  p-3 mx-auto flex-column">
+
+    <main role="main" class="inner cover text-center">
+
+      <h1 class="cover-heading">Covid-19 Statistics.</h1>
+      <p class="lead">Get current updates on the world's COVID-19 reportings.</p>
+      <form autocomplete="off" class="lead" action="/show" method="post">
+        <div class="form-group">
+          <label class="text-center" for="">Search by Country</label>
+          <input class="form-control" id="myInput" type="text" name="country" placeholder="Country ...">
+        </div>
+        <button class="btn btn-lg btn-lg btn-danger" type="submit" name="submit">Search</button>
+      </form>
+    </main>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

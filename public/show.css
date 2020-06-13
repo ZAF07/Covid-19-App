@@ -1,0 +1,11 @@
+body {
+  background-color: #eee;
+}
+
+#jumbotron, .back-btn {
+  background-color: #eb9950;
+  font-family: 'helvetica';
+}
+ h1, h3 {
+   letter-spacing: .1rem;
+ }
